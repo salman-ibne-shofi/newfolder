@@ -101,3 +101,14 @@ nav a {
   background: #fff8f3;
   margin: 130px;
 }
+main {
+  width: 1140px;
+  margin: 0 auto;
+}
+.about-info-container{
+display: flex;
+justify-content: space-around;
+}
+.about-inf{
+  text-align: center;
+}
