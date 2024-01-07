@@ -180,7 +180,7 @@ footer {
 .footer-column {
   width: 50%;
 }
-.contact input,
+.contact .normal-input,
 textarea {
   display: block;
   margin-bottom: 25px;
@@ -190,6 +190,7 @@ textarea {
   border-radius: 5px;
   background-color: #fff;
   border: 0px;
+  width: 100%;
 }
 .download-cv {
   /* background: #fd6e0a;
@@ -201,4 +202,8 @@ textarea {
   border: 0px; */
   margin-left: 50%;
   transform: translateX(-50%);
+}
+footer .section-title,
+footer .section-description {
+  text-align: left;
 }
